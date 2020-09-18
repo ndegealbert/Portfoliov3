@@ -25,11 +25,13 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Nav(){
 const classes = useStyles();
+
+  
    return (
        <div>
         <AppBar className={classes.app} position="fixed">
         <Toolbar>
-        <Button color="inherit"> Login </Button>
+        <Button color="inherit"> &lt; Albert/&gt; </Button>
           <Typography variant="h6" className={classes.title}>
         
           </Typography>
