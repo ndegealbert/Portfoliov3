@@ -5,9 +5,9 @@ import LinkIcon from '@material-ui/icons/Link';
 const projects = [
   {
     id:1,
-    title:"Albert",
-    desc:"Both approaches work fine, however, there are some subtle differences, especially in terms of performance and rendering quality",
-    stack:["React","React-native","python"]
+    title:"Realtime chat application",
+    desc:"Building chat application using websocket users in the same room can  send and receive messages real-time  ",
+    stack:["React","Node","socket.io "]
     
 
   },
