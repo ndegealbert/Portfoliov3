@@ -1,0 +1,156 @@
+
+.projecth{
+    color: #a9a9b8;
+    font-size: 30px;
+    margin-left: 180px;
+
+
+}
+
+.hr2{
+    width:20%;
+    position: relative;
+    bottom: 35px;
+    right: 210px;
+    background-color:  #FFB400;
+   
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+    margin-left: 180px;
+    right: 5%;
+    justify-content: space-between;
+    border: 4px;
+    margin-top: 5px;
+
+    
+}
+.details{
+    width: 350px;
+    height: 300px;
+    background-color:#191724;   
+    margin-top: 5px;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+
+}
+
+.title{
+    color: #a9a9b8;
+    margin-left: 10px;
+
+}
+.desc{
+    color: #a9a9b8;
+    margin-left: 10px;
+    line-height: 1.6;
+}
+
+.stack{
+    margin-top: 5px;
+}
+.details:hover{
+    border-radius: 3px;
+    border: 2px solid #FFB400 ;
+}
+
+.icon{
+    color: #a9a9b8;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    width: 80px;
+   
+}
+
+.linki{
+    margin-right: 5px;
+ }
+.lan{
+    list-style: none;
+    color: #dcdce7;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.lansta{
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .projecth{
+        color: #a9a9b8;
+        font-size: 30px;
+        margin-left: 25px;
+    }
+    
+    .hr2{
+        width:40%;
+        position: relative;
+        bottom: 35px;
+        right: 2px;
+        background-color:  #FFB400 ;
+    
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 25px;
+        
+    }
+
+    .details{
+        width: 90%;
+        height: 300px;
+        margin-top: 30px;
+        background-color:#0A122A;
+        margin-left: 20px;
+       
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .projecth{
+        color: #a9a9b8;
+        font-size: 30px;
+        margin-left: 25px;
+    }
+    
+    .hr2{
+        width:40%;
+        position: relative;
+        bottom: 35px;
+        right: 2px;
+        background-color:  #FFB400 ;
+    
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 25px;
+        
+    }
+
+    .details{
+        width: 90%;
+        height: 250px;
+        margin-top: 30px;
+        background-color:#0A122A;
+        margin-left: 20px;
+       
+    }
+
+
+}

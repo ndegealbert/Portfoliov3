@@ -1,0 +1,16 @@
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 120px;
+    color: "#5C5B71";
+    width: 500px;
+    font-weight: bolder;
+   
+}
+@media screen and (max-width: 900px) {
+    .links{
+        display: none;
+    }
+  }
+  

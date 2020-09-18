@@ -1,0 +1,21 @@
+.picture{
+    background-image: url("./../public/me.jpeg");
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 900px) {
+    .picture{
+        background-image: url("./../public/me.jpeg");
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 250px;
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+
+  }
