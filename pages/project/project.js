@@ -93,6 +93,7 @@ export default function Project(){
                 <div>
                 <Button
                 variant="link"
+                target="_blank" 
                 color="default"
                 className={classes.Button}
                 startIcon={<LinkIcon/>}
@@ -103,6 +104,7 @@ export default function Project(){
              
                   <Button
                 variant="link"
+                target="_blank" 
                 color="default"
                 className={classes.Button}
                 startIcon={<GitHubIcon/>}
