@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-right: 50px;
+    cursor: pointer;
 
     width: 400px;
     font-weight: bolder;
