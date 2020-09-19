@@ -20,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
       height:"60px",
       backgroundColor:'#1F1E2C',   
       marginBottom:theme.spacing(10)
+  },
+  name:{
+    color: '#C4C1E7',
   }
 }))
 
@@ -31,7 +34,7 @@ const classes = useStyles();
        <div>
         <AppBar className={classes.app} position="fixed">
         <Toolbar>
-        <Button color="inherit"> &lt; Albert/&gt; </Button>
+        <Button className={classes.name} > &lt; Albert/&gt; </Button>
           <Typography variant="h6" className={classes.title}>
         
           </Typography>

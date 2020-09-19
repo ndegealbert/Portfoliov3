@@ -120,3 +120,42 @@
 
 
 }
+
+@media all and (max-width: 1200px) and (min-width: 600px) {
+
+
+    .about{
+        font-size: 30px;
+        margin-left: 13px;
+        font-size: 25px;
+        }
+    
+    .hr{
+        width:40%;
+        position: relative;
+        bottom: 30px;
+        margin-left: 0px;
+       
+        background-color:  #FFB400 ;
+    }
+    
+    .intro{
+        color: #a9a9b8;
+        margin-left: 13px;
+    }
+
+    .tech{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        color: #a9a9b8;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .list{
+        list-style: none;
+        line-height: 1.5;
+    }
+
+}

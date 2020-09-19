@@ -71,11 +71,12 @@ const projects = [
   }
 ]
 
-const useStyles = makeStyles(() =>
+const useStyles = makeStyles((theme) =>
   createStyles({
     Button: {
       textTransform: "none",   
       color:'#a9a9b8',
+      
     }
   })
 );
@@ -94,7 +95,7 @@ export default function Project(){
                 <Button
                 variant="link"
                 target="_blank" 
-                
+
                 color="default"
                 className={classes.Button}
                 startIcon={<LinkIcon/>}

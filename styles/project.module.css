@@ -3,8 +3,6 @@
     color: #a9a9b8;
     font-size: 30px;
     margin-left: 180px;
-
-
 }
 
 .hr2{
@@ -81,18 +79,18 @@
     margin-top: 10px;
 }
 
-@media screen and (max-width: 700px) {
+@media all and ( max-width: 700px )   {
     .projecth{
         color: #a9a9b8;
         font-size: 30px;
-        margin-left: 25px;
+        margin-left: 10px;
     }
     
     .hr2{
         width:40%;
         position: relative;
         bottom: 35px;
-        right: 2px;
+        right:0px;
         background-color:  #FFB400 ;
     
     }
@@ -117,23 +115,18 @@
 
 }
 
-@media screen and (max-width: 900px) {
+@media all and (max-width: 1200px) and (min-width: 600px) {
 
     .projecth{
         color: #a9a9b8;
         font-size: 30px;
-        margin-left: 25px;
+        margin-left: 13px;
     }
     
-    .hr2{
-        width:40%;
-        position: relative;
-        bottom: 35px;
-        right: 2px;
-        background-color:  #FFB400 ;
-    
+     
+    .hr{
+       display: none;
     }
-
     .projects{
         display: flex;
         flex-direction: row;

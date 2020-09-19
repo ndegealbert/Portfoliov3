@@ -156,3 +156,58 @@
 
 
   }
+
+
+@media all and (max-width: 1200px) and (min-width: 600px) {
+
+    .hi{
+        color:#FFB400;
+        font-size: 20px;      
+        margin-left: 20px;
+        
+    }
+    .name{     
+        margin-top: 0px;
+        font-size: 35px;
+        color: #6E6D88;
+        margin-left: 20px;
+    }
+    .build{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 40px;
+        color: #6E6D88;
+        margin-left: 20px;
+    
+    }
+
+    .who{
+        display: inline-block;
+        margin-top: 5px;
+        padding: 0px;
+        font-size:20px;
+        margin-left: 20px;
+        color: #a9a9b8;
+        line-height: 1.6;
+    }
+
+
+    .rectangle1{
+        height: 50px;
+        width: 120px;
+        color: #6E6D88;
+        margin-left: 20px;
+        text-align: center;
+        border-radius: 3px;
+        border: 1px solid #FFB400 ;
+      }
+    
+     .rectangle1 p{
+        vertical-align: middle;
+        display: inline-block;
+    
+     }
+
+
+
+}
