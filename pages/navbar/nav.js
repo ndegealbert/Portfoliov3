@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
   name:{
     color: '#C4C1E7',
+
   }
 }))
 
@@ -34,7 +35,7 @@ const classes = useStyles();
        <div>
         <AppBar className={classes.app} position="fixed">
         <Toolbar>
-        <Button className={classes.name} > &lt; Albert/&gt; </Button>
+        
           <Typography variant="h6" className={classes.title}>
         
           </Typography>
