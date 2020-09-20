@@ -3,28 +3,27 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkIcon from '@material-ui/icons/Link';
 import Link from  'next/link'
 import Button from "@material-ui/core/Button";
-import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+import { createStyles, makeStyles } from "@material-ui/core/styles";
 
 
-
-const projects = [
+const projects=[
   {
     id:1,
     title:"Realtime chat application",
     desc:"Building chat application using websocket users in the same room can  send and receive messages real-time  ",
     stack:["React","Node","socket.io "],
     giturl:'https://github.com/ndegealbert/Socket.io-Chat-application',
-    link:'https://portfolio-m8vb242an.vercel.app/'
+    link:'https://socket-io-chat-application.vercel.app/'
     
 
   },
   {
     id:2,
-    title:"Albert",
-    desc:"Both approaches work fine, however, there are some subtle differences, especially in terms of performance and rendering quality",
-    stack:["React","React-native","python"],
-    giturl:'https://github.com/ndegealbert/Socket.io-Chat-application',
-    link:'https://portfolio-m8vb242an.vercel.app/'
+    title:"Watch List ",
+    desc:" Use Movie DB API to fetch Popular, Upcoming and Now Showing Movies",
+    stack:["Python","flask","MovieDb-Api"],
+    giturl:'https://github.com/ndegealbert/watchList',
+    link:'https://watch2movie.herokuapp.com/'
 
   },
 
@@ -34,7 +33,7 @@ const projects = [
     desc:"Both approaches work fine, however, there are some subtle differences, especially in terms of performance and rendering quality",
     stack:["React","React-native","python"],
     giturl:'https://github.com/ndegealbert/Socket.io-Chat-application',
-    link:'https://portfolio-m8vb242an.vercel.app/'
+    link:'https://watch2movie.herokuapp.com/'
 
 
   },
@@ -44,7 +43,7 @@ const projects = [
     title:"Albert",
     desc:"Both approaches work fine, however, there are some subtle differences, especially in terms of performance and rendering quality",
     stack:["React","React-native","python"],
-    giturl:'https://github.com/ndegealbert/Socket.io-Chat-application',
+    giturl:'https://github.com/ndegealbert/portifolioV2',
     link:'https://portfolio-m8vb242an.vercel.app/'
 
 

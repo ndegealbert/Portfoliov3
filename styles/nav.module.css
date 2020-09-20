@@ -9,7 +9,6 @@
     font-weight: bolder;
    
 }
-
 @media screen and (max-width: 900px) {
     .links{
         display: none;
