@@ -9,6 +9,11 @@
     font-weight: bolder;
    
 }
+
+.re{
+    color:  #C4C1E7;
+    text-decoration: none;
+}
 @media screen and (max-width: 900px) {
     
   }

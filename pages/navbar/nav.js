@@ -44,10 +44,8 @@ const classes = useStyles();
               
            <Link style={{color:"#C4C1E7"}}  to="about" smooth={true}   offset={-80}  duration={1000}>About</Link >   
            <Link  style={{color:"#C4C1E7"}} to="project" smooth={true} offset={-80} duration={1000}>Project</Link >
-           <Link  style={{color:"#C4C1E7"}} to="contact" smooth={true} offset={-80} duration={1000}>Contact</Link >
-           <Link  style={{color:"#C4C1E7"}} to="contact" smooth={true}  offset={-80} duration={1000}>Resume</Link >
-        
-  
+           <Link  style={{color:"#C4C1E7"}} to="contact" smooth={true} offset={-80} duration={1000}>Contact</Link >          
+              <a className={styles.re} href="public/Ndege Albert.pdf" download>Resume</a>
             </div>
   
           
