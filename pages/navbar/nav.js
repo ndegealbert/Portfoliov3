@@ -35,7 +35,6 @@ const classes = useStyles();
        <div>
         <AppBar className={classes.app} position="fixed">
         <Toolbar>
-        
           <Typography variant="h6" className={classes.title}>
         
           </Typography>
