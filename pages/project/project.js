@@ -40,11 +40,11 @@ const projects=[
 
   {
     id:4,
-    title:"Albert",
-    desc:"Both approaches work fine, however, there are some subtle differences, especially in terms of performance and rendering quality",
-    stack:["React","React-native","python"],
+    title:"Portfoliov2",
+    desc:"My Portfolio V2",
+    stack:["HTML","Javascript","CSs"],
     giturl:'https://github.com/ndegealbert/portifolioV2',
-    link:'https://portfolio-m8vb242an.vercel.app/'
+    link:'https://ndegealbert.github.io/portifolioV2//'
 
 
   },
@@ -73,9 +73,7 @@ const projects=[
 const useStyles = makeStyles((theme) =>
   createStyles({
     Button: {
-      textTransform: "none",   
-      color:'#a9a9b8',
-      
+      textTransform: "none",     
     }
   })
 );

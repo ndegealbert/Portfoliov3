@@ -52,6 +52,7 @@
 }
 .media{
     display: inline;
+    margin-left: 0px;
 }
 
 .media:hover{

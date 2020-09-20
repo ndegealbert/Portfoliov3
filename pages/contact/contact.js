@@ -1,8 +1,21 @@
 import  styles  from  './../../styles/contact.module.css'
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import { createStyles, makeStyles } from "@material-ui/core/styles";
+import Button from "@material-ui/core/Button";
+
+const useStyles = makeStyles((theme) =>
+  createStyles({
+    Button: {
+      textTransform: "none",   
+      color:'#a9a9b8',
+      
+    }
+  })
+);
 
 export default  function  Contact(){
+  const classes = useStyles();
     const  date =  new Date()
     return  <div  id="contact">
           <div className={styles.contact}>
@@ -18,8 +31,30 @@ export default  function  Contact(){
 
                 <div className={styles.touch}>
                       <ul className={styles.media1}>
-                      <li className={styles.media}> <TwitterIcon/>  </li>  
-                    <li className={styles.media}><LinkedInIcon/>  </li>
+                      <li className={styles.media}> 
+                     
+                      <Button
+                      variant="link"
+                      target="_blank" 
+                      color="default"
+                      className={classes.Button}
+                      startIcon={ <TwitterIcon/> }
+                      href="https://twitter.com/albertndege_"
+                    />
+                      
+                       </li>  
+
+                    <li className={styles.media}>                  
+                      <Button
+                      variant="link"
+                      target="_blank" 
+                      color="default"
+                      className={classes.Button}
+                      startIcon={<LinkedInIcon/>}
+                      href="https://www.linkedin.com/in/ndege-albert-136178155/"
+                    />
+                    
+                       </li>
       
                       </ul>
                    
