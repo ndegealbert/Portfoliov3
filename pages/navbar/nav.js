@@ -35,7 +35,9 @@ const classes = useStyles();
        <div>
         <AppBar className={classes.app} position="fixed">
         <Toolbar>
-         
+          <Typography variant="h6" className={classes.title}>
+        
+          </Typography>
 
     
             <div className={styles.links}>
@@ -51,7 +53,7 @@ const classes = useStyles();
           
           
           <IconButton  className={classes.menuButton} color="inherit" aria-label="menu">
-           <MenuIcon />
+        
          </IconButton>
       
         </Toolbar>
