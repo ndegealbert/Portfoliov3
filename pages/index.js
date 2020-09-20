@@ -38,7 +38,7 @@ export default function Home() {
          <About/>     
         </Grid>
         <Grid item xs={12} sm={6}>
-            <Picture/>
+      
         </Grid>
         <Grid item  sm={12}>
         <Project/>
