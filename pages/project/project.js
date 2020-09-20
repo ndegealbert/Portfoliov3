@@ -42,7 +42,7 @@ const projects=[
     id:4,
     title:"Portfoliov2",
     desc:"My Portfolio V2",
-    stack:["HTML","Javascript","CSs"],
+    stack:["HTML","Javascript","CSS"],
     giturl:'https://github.com/ndegealbert/portifolioV2',
     link:'https://ndegealbert.github.io/portifolioV2//'
 
@@ -73,7 +73,9 @@ const projects=[
 const useStyles = makeStyles((theme) =>
   createStyles({
     Button: {
-      textTransform: "none",     
+      textTransform: "none",   
+      color:'#a9a9b8',
+      
     }
   })
 );

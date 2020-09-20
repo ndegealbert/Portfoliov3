@@ -15,7 +15,7 @@ export default  function Header(){
                 and build cool things using codes
                 </p>
                 <div className={styles.rectangle1}> 
-                  <p > Get in Touch</p>
+                <p className={styles.box}> <a className={styles.hr} href="mailto:albertndege2@gmail.com" > Get in touch</a></p>
                 </div>
             </div>
         </div>
