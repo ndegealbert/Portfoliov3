@@ -9,7 +9,7 @@
     width:20%;
     position: relative;
     bottom: 35px;
-    right: 210px;
+    right: 270px;
     background-color:  #FFB400;
    
 }
@@ -90,7 +90,7 @@
         width:40%;
         position: relative;
         bottom: 35px;
-        right:0px;
+        left: 20px;
         background-color:  #FFB400 ;
     
     }
