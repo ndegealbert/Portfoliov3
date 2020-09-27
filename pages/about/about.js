@@ -9,9 +9,9 @@ export  default  function About (){
 
          <p className={styles.intro}>  
             Hello! I'm Albert, a software engineer based in Kenya,
-            I enjoy creating things that live on the internet, whether that be websites,
-            applications, or anything in between.<br/>
-             Here are a few technologies I've been working with recently:
+            I just love the web, and nothing is more exciting than making it really beautiful, <br/>
+            improving the user experience in the efforts to make a wow experience to anyone who uses it
+            Here are a few technologies I've been working with recently:
          </p>
             <div className={styles.tech}>    
                  <div className="ui">

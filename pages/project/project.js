@@ -17,8 +17,19 @@ const projects=[
     
 
   },
+
   {
     id:2,
+    title:"Quotify",
+    desc:"Quotify is a small website made for you to find quotes from well known individuals around the world.",
+    stack:["React","Json"],
+    giturl:'https://github.com/ndegealbert/Quotify',
+    link:'https://quotify.vercel.app/'
+
+
+  },
+  {
+    id:3,
     title:"Watch List ",
     desc:" Use Movie DB API to fetch Popular, Upcoming and Now Showing Movies",
     stack:["Python","flask","MovieDb-Api"],
@@ -27,20 +38,11 @@ const projects=[
 
   },
 
-  {
-    id:3,
-    title:"Albert",
-    desc:"Both approaches work fine, however, there are some subtle differences, especially in terms of performance and rendering quality",
-    stack:["React","React-native","python"],
-    giturl:'https://github.com/ndegealbert/Socket.io-Chat-application',
-    link:'https://watch2movie.herokuapp.com/'
 
-
-  },
 
   {
     id:4,
-    title:"Portfoliov2",
+    title:"Portfolio v2",
     desc:"My Portfolio V2",
     stack:["HTML","Javascript","CSS"],
     giturl:'https://github.com/ndegealbert/portifolioV2',
@@ -121,7 +123,7 @@ export default function Project(){
                  <ul className={styles.lan}>
                    {
                      p.stack.map(s=>( 
-                     <li className={styles.lansta}>{s}</li>
+                     <li className={styles.lansta }>{s + ","}</li>
                      ))
                    }
                  </ul>
