@@ -1,10 +1,8 @@
 import  styles  from  './../../styles/project.module.css'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkIcon from '@material-ui/icons/Link';
-import Link from  'next/link'
 import Button from "@material-ui/core/Button";
 import { createStyles, makeStyles } from "@material-ui/core/styles";
-
 
 const projects=[
   {
@@ -17,7 +15,6 @@ const projects=[
     
 
   },
-
   {
     id:2,
     title:"Quotify",
@@ -25,8 +22,6 @@ const projects=[
     stack:["React","Json"],
     giturl:'https://github.com/ndegealbert/Quotify',
     link:'https://quotify.vercel.app/'
-
-
   },
   {
     id:3,
@@ -37,9 +32,6 @@ const projects=[
     link:'https://watch2movie.herokuapp.com/'
 
   },
-
-
-
   {
     id:4,
     title:"Portfolio v2",
@@ -50,26 +42,6 @@ const projects=[
 
 
   },
-
-  {
-    id:5,
-    title:"Albert",
-    desc:"Both approaches work fine, however, there are some subtle differences, especially in terms of performance and rendering quality",
-    stack:["React","React-native","python"],
-    giturl:'https://github.com/ndegealbert/Socket.io-Chat-application',
-    link:'https://portfolio-m8vb242an.vercel.app/'
-
-
-  },
-  {
-    id:5,
-    title:"Albert",
-    desc:"Both approaches work fine, however, there are some subtle differences, especially in terms of performance and rendering quality",
-    stack:["React","React-native","python"],
-    giturl:'https://github.com/ndegealbert/Socket.io-Chat-application',
-    link:'https://portfolio-m8vb242an.vercel.app/'
-
-  }
 ]
 
 const useStyles = makeStyles((theme) =>
@@ -133,7 +105,4 @@ export default function Project(){
             ))
           }
         </div>
-
-    </div>
-    
-} 
+        </div>} 

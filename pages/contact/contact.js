@@ -54,10 +54,7 @@ export default  function  Contact(){
                 <div className={styles.footer}>
                    <p> Designed & Built by Ndege Albert  @{date.getFullYear()} </p>
                 </div>
-          </div>
-            
-    
-    
+          </div> 
     </div>
     
 }

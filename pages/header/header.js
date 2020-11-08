@@ -5,7 +5,7 @@ export default  function Header(){
     return (
         <div className={styles.header}>
             <div  className={styles.content}>
-                <p className={styles.hi}> Hi, my name is </p>
+                <p className={styles.hi}> Hi, my name is, </p>
                  <h2 className={styles.name}>Ndege Albert.<br/> Software developer </h2>
                 <p className={styles.who}>  
                 I'm a software developer, based in Nairobi Kenya<br/>

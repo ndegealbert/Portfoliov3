@@ -1,11 +1,5 @@
-import Head from 'next/head'
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import FormLabel from '@material-ui/core/FormLabel';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import RadioGroup from '@material-ui/core/RadioGroup';
-import Radio from '@material-ui/core/Radio';
-import Paper from '@material-ui/core/Paper';
 import About  from './about/about'
 import  Project  from './project/project'
 import  Contact from './contact/contact'
@@ -22,11 +16,9 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-  },
+  },}));
 
-}));
-
-export default function Home() {
+  export default function Home() {
   const classes = useStyles();
   return (
     <Grid container className={classes.root} spacing={2}>    
@@ -46,7 +38,4 @@ export default function Home() {
         </Grid>
 
         </Grid>
-
-  
-  )
-}
+  )}
