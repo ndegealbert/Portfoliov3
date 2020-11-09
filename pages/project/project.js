@@ -42,7 +42,7 @@ const projects=[
 
 
   },
-
+/** 
   {
     id:5,
     title:"Portfolio v3",
@@ -52,7 +52,8 @@ const projects=[
     link:'https://ndegealbert.github.io/portifolioV2//'
 
 
-  },
+  },*/
+  
 ]
 
 const useStyles = makeStyles((theme) =>
