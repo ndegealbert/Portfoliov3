@@ -28,7 +28,6 @@ const useStyles = makeStyles((theme) => ({
 
   }
 }))
-
 export default function Nav(){
 const classes = useStyles();  
    return (
@@ -47,12 +46,8 @@ const classes = useStyles();
            <Link  style={{color:"#C4C1E7"}} to="project" smooth={true} offset={-80} duration={1000}>Project</Link >
            <Link  style={{color:"#C4C1E7"}} to="contact" smooth={true} offset={-80} duration={1000}>Contact</Link >  
               <a className={styles.re} href="https://portfolio-theta-black.vercel.app/public/resume.pdf" download>Resume</a>
-            </div>
-  
-          
-          
+            </div>          
           <IconButton  className={classes.menuButton} color="inherit" aria-label="menu">
-        
          </IconButton>
       
         </Toolbar>
