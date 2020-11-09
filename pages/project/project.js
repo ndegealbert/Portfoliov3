@@ -42,6 +42,17 @@ const projects=[
 
 
   },
+
+  {
+    id:5,
+    title:"Portfolio v3",
+    desc:"My Portfolio V3",
+    stack:["Material-ui","Next.js","sass"],
+    giturl:'https://github.com/ndegealbert/portifolioV2',
+    link:'https://ndegealbert.github.io/portifolioV2//'
+
+
+  },
 ]
 
 const useStyles = makeStyles((theme) =>
