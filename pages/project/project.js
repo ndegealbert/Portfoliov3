@@ -38,7 +38,7 @@ const projects=[
     desc:"My Portfolio V2",
     stack:["HTML","Javascript","CSS"],
     giturl:'https://github.com/ndegealbert/portifolioV2',
-    link:'https://ndegealbert.github.io/portifolioV2//'
+    link:'https://ndegealbert.github.io/portifolioV2/'
 
 
   },
@@ -53,7 +53,7 @@ const projects=[
 
 
   },*/
-  
+
 ]
 
 const useStyles = makeStyles((theme) =>
