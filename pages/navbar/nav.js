@@ -8,8 +8,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import React,{useState} from 'react';
 import  styles from  '../../styles/nav.module.css'
 import   { Link }   from  'react-scroll'
-
-
+import  resume  from  "../../public/resume.pdf"
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -38,18 +37,18 @@ const classes = useStyles();
           <Typography variant="h6" className={classes.title}>
         
           </Typography>
-
-    
             <div className={styles.links}>
               
            <Link style={{color:"#C4C1E7"}}  to="about" smooth={true}   offset={-80}  duration={1000}>About</Link >   
            <Link  style={{color:"#C4C1E7"}} to="project" smooth={true} offset={-80} duration={1000}>Project</Link >
            <Link  style={{color:"#C4C1E7"}} to="contact" smooth={true} offset={-80} duration={1000}>Contact</Link >  
-              <a className={styles.re} href="https://portfolio-theta-black.vercel.app/public/resume.pdf" download>Resume</a>
+        
+  
+              <a className={styles.re}  href={resume} target='_blank'>Resume</a>
+
             </div>          
           <IconButton  className={classes.menuButton} color="inherit" aria-label="menu">
          </IconButton>
-      
         </Toolbar>
       </AppBar>
        </div>
