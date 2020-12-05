@@ -1,3 +1,4 @@
+//configure web pack to accept pdf  file 
 module.exports = {
     webpack: (config) => {
       config.module.rules.push({
