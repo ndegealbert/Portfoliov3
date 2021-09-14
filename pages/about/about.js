@@ -19,7 +19,7 @@ export  default  function About (){
                     <li className={styles.li}>Javascript (es6+) & Typescript </li>
                     <li className={styles.li}>React & React-Native  </li>
                     <li className={styles.li}>Styled-Component</li>  
-                    <li className={styles.li}>Node</li>       
+    
                 </ul>
                  </div>      
                  <div className="back">
