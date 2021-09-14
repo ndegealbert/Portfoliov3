@@ -24,8 +24,8 @@ export  default  function About (){
                  </div>      
                  <div className="back">
                  <ul className={styles.list}> 
-                    <li className={styles.li}>Java</li>
-                    <li className={styles.li}>Php</li>
+                    <li className={styles.li}>Java/Spring boot</li>
+                    <li className={styles.li}>Php/slim</li>
                     <li className={styles.li}>AWS</li>
                     <li className={styles.li}>Docker</li>
                 </ul>
