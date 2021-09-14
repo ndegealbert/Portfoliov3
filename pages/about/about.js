@@ -24,9 +24,9 @@ export  default  function About (){
                  </div>      
                  <div className="back">
                  <ul className={styles.list}> 
-                    <li className={styles.li}>Python</li>
-                    <li className={styles.li}>Django </li>
-                    <li className={styles.li}>PostgreSQL</li>
+                    <li className={styles.li}>Java</li>
+                    <li className={styles.li}>Php</li>
+                    <li className={styles.li}>AWS</li>
                     <li className={styles.li}>Docker</li>
                 </ul>
 
