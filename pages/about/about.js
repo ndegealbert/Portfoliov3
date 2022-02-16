@@ -17,15 +17,14 @@ export  default  function About (){
                  <div className="ui">
                  <ul className={styles.list} >
                     <li className={styles.li}>Javascript (es6+) & Typescript </li>
-                    <li className={styles.li}>React & React-Native  </li>
+                    <li className={styles.li}>React & React-Native & Next.js </li>
                     <li className={styles.li}>Styled-Component</li>  
     
                 </ul>
                  </div>      
                  <div className="back">
                  <ul className={styles.list}> 
-                    <li className={styles.li}>Java/Spring boot</li>
-                    <li className={styles.li}>Php/slim</li>
+                    <li className={styles.li}>Go lang</li>
                     <li className={styles.li}>AWS</li>
                     <li className={styles.li}>Docker</li>
                 </ul>
